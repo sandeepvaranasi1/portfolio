@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" contents="ie=edge" />
+
+    <title>Sandeep Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- HEADER SECTION-->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        
+        <nav id="myTopnav">
+            <a href="javscript:void(0);" class="menu-icon" onclick="myFunction()">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+            </a>
+           <a href="#home">Home</a>
+           <a href="#about">About</a>
+           <a href="#skills">Skills</a>
+           <a href="#projects">Projects</a>
+           <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm </h3>
+            <h1 style="color: aquamarine; font-size: 50px;border-left: 4px solid white; border-radius: 7px;">Sandeep</h1>
+            <h3>A Full-stack Java Developer</h3>
+            <div class="social-media">
+                <a href="https://linkedin.com/in/sandeep-varanasi-507037251" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sandeepvaranasi1" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            <a href="Sandeep Resume s5 java.pdf" class="btn" target="_blank">Download Resume</a>
+        </div>
+        <div>
+            <img src="sandeep.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1>About Me</h1>
+        <div>
+            <table>
+                <tr>
+                    <th>Full Name</th>
+                    <td>Sandeep Varanasi</td>
+                </tr>
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>1st July 2024</td>
+                </tr>
+                <tr>
+                    <th>Nationality</th>
+                    <td>Indian</td>
+                </tr>
+                <tr>
+                    <th>Hobbies</th>
+                    <td>Playing Chess, Editing, Surfing the internet.</td>
+                </tr>
+                <tr>
+                    <th>Languages</th>
+                    <td> Telugu, English</td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td>Butchenna Koneru beside Hanuman Temple, Vizianagaram, Andhra Pradesh</td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td>+91 7013136016</td>
+                </tr>
+            </table>
+            </ul>
+        </div>
+    </section>
+
+    <h1 style="margin-top: 30px; text-align: center;">Skills</h1>
+    <section class="skills" id="skills">
+        <ul>
+              <h3>Back-End</h3>
+            <li>Core Java</li>
+            <li>Spring boot</li>
+            <li>Spring Data JPA</li>
+            <li>Spring MVC</li>
+            <li>Hibernate</li>
+            <li>Rest APIs</li>
+        </ul>
+        <ul>
+            <h3>Front-End</h3>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+        <ul>
+            <h3>Tools</h3>
+            <li>Eclipse IDE</li>
+            <li>VS code</li>
+            <li> GitHub</li>
+            <li>MySQL Workbench</li>
+    </ul>
+        <ul>
+            <h3>Database</h3>
+            <li>MySQL</li>
+        </ul>
+        <ul>
+            <h3>Operating Systems</h3>
+            <li>Windows</li>
+        </ul>
+    </section>
+    <h1 style="text-align: center;">Projects</h1>
+    <section class="projects" id="projects">
+        <div><h2>Project-1: Student Management System</h2>
+            <p>Individual</p>
+            <h4>Technologies Used: Java, Spring Data JPA, Spring boot, HTML,CSS</h4>
+        <p>A full-stack Java project using Java framework (Spring) ,MySQL Database and Tomcat server
+           on Eclipse IDE which performs CRUD operations for a college</p>
+        </div>
+        <br>
+        <div>
+        <h2>Project-2: Clone Sabarimala online website(Front-end)</h2>
+        <p>Individual</p>
+        <h4>Technologies Used: HTML&CSS</h4>
+        <p> Recreated the front-end of sabarimalaonline.org using HTML and CSS Elements in VS Code</p>
+        <a href="https://sandeepvaranasi1.github.io/sandeep/" style="text-decoration: underline; color: aquamarine;" target="_blank">GitHub Link</a>
+    </div>
+    </section>
+    <h1 style="text-align: center;">Contact</h1>
+    <section class="contact" id="contact">
+        <form action="">
+                <table>
+                    <tr>      
+                    <td>Enter your name</td>
+                    <td><input type="text" name="name" id="name" placeholder="Enter your name"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter mobile number</td>
+                    <td><input type="number" id="Mobile_Number" placeholder="Enter Your Mobile Number" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                    <td><input type="text" id="Name" placeholder="Enter Your email" required></td>
+                </tr>
+                </table>
+        </form>
+        <div class="button"><button type="submit" onclick="">Submit</button></div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
