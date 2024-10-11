@@ -1,8 +1,8 @@
 function myFunction() {
     var x = document.getElementById("myTopnav");
-    if (x.className.includes("responsive")) {
-        x.className = x.className.replace(" responsive", "");
-    } else {
-        x.className += " responsive";
-    }
+    if (x.className === "topnav") {
+      x.className += " responsive"; // Add the responsive class
+  } else {
+      x.className = "topnav"; // Remove the responsive class
+  }
 }
